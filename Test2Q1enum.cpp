@@ -33,15 +33,15 @@ int main(){
         groups(userInput);
 
     }else if (userInput ==2){
-        cout<<"x^y = "<< (x^y)<<" ";
-        cout<<"x&y = "<< (x&y)<<" ";
-        cout<<"x|y = "<< (x|y)<<" ";
-        cout<<"x%z = "<< (x % z)<<" ";
+        cout<<"x^y = "<< (x^y)<<" "<< endl;
+        cout<<"x&y = "<< (x&y)<<" "<< endl;
+        cout<<"x|y = "<< (x|y)<<" "<< endl;
+        cout<<"x%z = "<< (x % z)<<" "<< endl;
         whatGroup = userInput;
         groups(userInput);
     }else if (userInput ==3){
-        cout<<"z >> 1 = "<< (z >> 1)<<" ";
-        cout<<"x << 1 = "<< (x << 1)<<" ";
+        cout<<"z >> 1 = "<< (z >> 1)<<" "<< endl;
+        cout<<"x << 1 = "<< (x << 1)<<" "<< endl;
         whatGroup = userInput;
         groups(userInput);
     }else{
